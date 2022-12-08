@@ -7,7 +7,7 @@ branches:
     - main
 
 before_script:
-  - cd back/demo/
+  - cd TodoApplication/back/demo/
 
 
 # Travis CI 서버의 Home

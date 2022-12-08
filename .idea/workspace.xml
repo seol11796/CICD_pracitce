@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c34e24dc-16b6-484c-b47a-a103623399f5" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/TodoApplication/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/TodoApplication/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TodoApplication/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +93,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\seol1\webservice_CICD\TodoApplication" />
       <recent name="C:\Users\seol1\webservice_CICD" />
+      <recent name="C:\Users\seol1\webservice_CICD\TodoApplication" />
       <recent name="C:\Users\seol1\webservice_CICD\TodoApplication\5.1-Frontend_Routing\todo-react-app\src" />
       <recent name="C:\Users\seol1\webservice_CICD\TodoApplication\5.1-Frontend_Routing\todo-react-app\src\service" />
     </key>
