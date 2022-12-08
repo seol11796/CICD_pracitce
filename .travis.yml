@@ -6,10 +6,6 @@ branches:
   only:
     - main
 
-before_install:
-  - cd ./TodoApplication/back/demo
-  - chmod +x gradlew
-
 
 before_script:
   - cd TodoApplication/back/demo/
