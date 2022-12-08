@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - openjdk8
+  - openjdk11
 
 branches:
   only:
@@ -19,3 +19,6 @@ notifications:
   email:
     recipients:
       - yeseol789@gmail.com
+
+before_install:
+  - chmod +x gradlew

@@ -3,8 +3,8 @@ com/example/demo/dto/ResponseDTO.java
  com.example.demo.dto.ResponseDTO$ResponseDTOBuilder
 com/example/demo/controller/TestController.java
  com.example.demo.controller.TestController
-com/example/demo/controller/TodoController.java
- com.example.demo.controller.TodoController
+com/example/demo/dto/TodoDTO.java
+ com.example.demo.dto.TodoDTO
 com/example/demo/config/WebMvcConfig.java
  com.example.demo.config.WebMvcConfig
 com/example/demo/config/WebSecurityConfig.java
@@ -41,5 +41,5 @@ com/example/demo/DemoApplication.java
 com/example/demo/DemoModel.java
  com.example.demo.DemoModel
  com.example.demo.DemoModel$DemoModelBuilder
-com/example/demo/dto/TodoDTO.java
- com.example.demo.dto.TodoDTO
+com/example/demo/controller/TodoController.java
+ com.example.demo.controller.TodoController
