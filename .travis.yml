@@ -24,3 +24,5 @@ notifications:
     recipients:
       - seol11796@gmail.com
 
+before_install:
+  - chmod +x gradlew
