@@ -25,4 +25,6 @@ notifications:
       - seol11796@gmail.com
 
 before_install:
+  - cd ./TodoApplication/back/demo
   - chmod +x gradlew
+
