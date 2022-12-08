@@ -73,7 +73,7 @@ class App extends React.Component {
         <Toolbar>
           <Grid justify="space-between" container>
             <Grid item>
-              <Typography variant="h6">오늘의 할일</Typography>
+              <Typography variant="h6">오늘의 할일~</Typography>
             </Grid>
             <Grid>
               <Button color="inherit" onClick={signout}>
