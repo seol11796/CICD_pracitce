@@ -25,6 +25,6 @@ notifications:
       - seol11796@gmail.com
 
 before_install:
-  - cd ./TodoApplication/back/demo
+  - cd webservice_CICD\TodoApplication\back\demo
   - chmod +x gradlew
 
