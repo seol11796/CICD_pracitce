@@ -14,13 +14,10 @@ class Todo extends React.Component {
   constructor(props) {
     super(props);
     this.state = { item: props.item, readOnly: true };
-    this.delete = props.delete;
+
     this.update = props.update;
   }
 
-  deleteEventHandler = () => {
-    this.delete(this.state.item);
-  };
 
   offReadOnlyMode = () => {
     console.log("Event!", this.state.readOnly);
@@ -74,12 +71,7 @@ class Todo extends React.Component {
 
         <ListItemSecondaryAction>
 
-          <IconButton
-            aria-label="Delete Todo"
-            onClick={this.deleteEventHandler}
-          >
-            <DeleteOutlined />
-          </IconButton>
+
 
         </ListItemSecondaryAction>
       </ListItem>
