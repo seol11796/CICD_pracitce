@@ -18,7 +18,5 @@ script: "./gradlew clean build"
 notifications:
   email:
     recipients:
-      - yeseol789@gmail.com
+      - seol11796@gmail.com
 
-before_install:
-  - chmod +x gradlew
