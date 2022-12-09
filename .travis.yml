@@ -16,7 +16,7 @@ before_script:
   - cd TodoApplication/back/demo/
 
 
-script: "./gradlew clean build"
+script: "./gradlew bootRun"
 
 before_deploy:
   - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
@@ -49,7 +49,7 @@ deploy:
     deployment_group: springboot-service-group # 웹 콘솔에서 등록한 CodeDeploy 배포 그룹
     region: ap-northeast-2
     wait-until-deployed: true
-   
+
 # CI 실행 완료시 메일로 알람
 notifications:
   email:
